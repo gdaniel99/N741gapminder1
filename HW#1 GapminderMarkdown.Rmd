@@ -85,6 +85,8 @@ Using the 1st code example at the `gapminder` Github repository at [https://gith
 
 ```{r}
 aggregate(lifeExp ~ continent, gapminder, median)
+aggregate(lifeExp ~ continent, gapminder, mean)
+aggregate(lifeExp ~ continent, gapminder, sd)
 ```
 
 ### **Homework 01 Exercise - Task 2**
