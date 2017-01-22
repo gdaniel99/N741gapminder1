@@ -102,6 +102,12 @@ library(ggplot2)
 ggplot(gapminder, aes(x = continent, y = lifeExp)) +
   geom_boxplot(outlier.colour = "hotpink") +
   geom_jitter(position = position_jitter(width = 0.1, height = 0), alpha = 1/4)
+ggplot(gapminder, aes(x = continent, y = gdpPercap)) +
+  geom_boxplot(outlier.colour = "hotpink") +
+  geom_jitter(position = position_jitter(width = 0.1, height = 0), alpha = 1/4)
+ggplot(gapminder, aes(x = continent, y = pop)) +
+  geom_boxplot(outlier.colour = "hotpink") +
+  geom_jitter(position = position_jitter(width = 0.1, height = 0), alpha = 1/4)
 ```
 
 ### **Homework 01 Exercise - Task 3**
