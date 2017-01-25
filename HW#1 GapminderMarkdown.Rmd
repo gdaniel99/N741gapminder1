@@ -3,9 +3,9 @@ title: 'HW #1: Gapminder Example Report'
 author: "Gaea Daniel"
 date: "January 25, 2017"
 output:
-  word_document: default
   pdf_document: default
   html_document: default
+  word_document: default
 ---
 
 ## **Homework 01 SETUP**
